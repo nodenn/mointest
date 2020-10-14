@@ -166,36 +166,21 @@
 
     /* contents */
     .container{
-        margin: 0 auto;
-        display: block;
-
         margin-top: 60px;
-        position: relative;
-        z-index: -1;
-        height: auto;
-        width: 100%;
-        background-size: 100%;
-        background-attachment: local;
 
         padding-bottom: 60px;
     }
-
     .vlist{
-        display: block;
         position: relative;
+        width: 100%;
     }
 
     .vbox{
         display: block;
-        width: 100%;
         margin: 0 auto;
+        width: 700px;
         padding-bottom: 20px;
     }
-    /* .vbox-inner{
-        position: relative;
-        display: block;
-        margin: 0 auto;
-    } */
 
     .cont_inner{
         padding: 0 10px 15px 10px;
