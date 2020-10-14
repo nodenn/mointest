@@ -222,6 +222,11 @@
         margin-left: 40px;
     }
 
+    .sns{
+        position: relative;
+        top: -6px;
+    }
+
     .sns span{
         font-size: 10px;
     }
