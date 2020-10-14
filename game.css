@@ -1,0 +1,7 @@
+.container{
+    background-image: url("img/game.jpg");
+}
+
+.gnb:nth-child(2){
+    color: rgb(0, 149, 200)
+}

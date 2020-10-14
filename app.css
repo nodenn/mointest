@@ -1,0 +1,7 @@
+.container{
+    background-image: url("img/app-1.jpg");
+}
+
+.gnb:nth-child(4){
+    color: rgb(0, 149, 200)
+}

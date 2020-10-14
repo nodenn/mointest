@@ -1,0 +1,7 @@
+.container{
+    background-image: url("img/etc1.jpg");
+}
+
+.gnb:nth-child(5){
+    color: rgb(0, 149, 200)
+}

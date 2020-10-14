@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900&display=swap');
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
-/* @media screen and (min-width: 1024px){ */
 /* reset */
 *{
     margin: 0;
@@ -71,6 +70,9 @@ body{
 }
 
 /* menu */
+.slide_menu{
+    display: none;
+}
 .menu{
     float: right;
     font-size: 24px;
@@ -124,13 +126,13 @@ body{
 /* Contents */
 .container{
     margin: 0 auto;
+    display: block;
     
     margin-top: 80px;
     position: relative;
     z-index: -1;
     height: auto;
     width: 100%;
-    /* background-image: url("img/main.jpg"); */
     background-size: 100%;
     background-attachment: local;
 
@@ -290,5 +292,3 @@ body{
 .sns_home a:hover .fa{
     color: #fff;
 }
-
-/* } */
