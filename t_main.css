@@ -166,34 +166,38 @@
 
     /* contents */
     .container{
+        margin: 0 auto;
+        display: block;
+
         margin-top: 60px;
+        position: relative;
+        z-index: -1;
+        height: auto;
+        width: 100%;
+        background-size: 100%;
+        background-attachment: local;
+
+        padding-bottom: 60px;
     }
 
     .vlist{
-        position: relative;
-        display: block;
-        width: 100%;
-        margin-top: 30px;
     }
 
     .vbox{
-        display: inline-block;
         width: 100%;
-        padding-bottom: 20px;
-        margin: 0;
-    }
-    .vbox-inner{
-        display: inline-block;
         margin: 0 auto;
-        margin-left: 34px;
+        padding-bottom: 20px;
     }
+    /* .vbox-inner{
+        position: relative;
+        display: block;
+        margin: 0 auto;
+    } */
 
     .cont_inner{
         padding: 0 10px 15px 10px;
     }
     .content{
-        position: relative;
-        display: block;
         width: 220px;
         margin-right: 20px;
     }
