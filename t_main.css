@@ -181,9 +181,12 @@
     }
 
     .vlist{
+        display: block;
+        position: relative;
     }
 
     .vbox{
+        display: block;
         width: 100%;
         margin: 0 auto;
         padding-bottom: 20px;
