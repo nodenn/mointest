@@ -272,6 +272,10 @@
     margin-left: 20px;
 }
 
+.info span{
+    font-size: 12px;
+}
+
 .sns{
     position: relative;
     float: right;
