@@ -1,6 +1,5 @@
-@media screen and (min-width: 600px) and (max-width: 1023px){
-/* @media screen and (max-width: 1024px){ */
-        /* reset */
+@media screen and (max-width: 599px){
+    /* reset */
     *{
         margin: 0;
         padding: 0;
@@ -167,7 +166,7 @@
 
     /* contents */
     .container{
-        margin-top: 60px;
+        margin-top: 80px;
         display: flex;
         width: 100%;
 
@@ -180,10 +179,21 @@
         
         margin: 0 auto;
         margin-top: 30px;
+        /* padding: 0 5% 10px 5%; */
     }
 
+    /* .vbox{
+        display: block;
+        margin: 0 auto;
+        width: 700px;
+        padding-bottom: 20px;
+    } */
+
+    /* .cont_inner{
+        padding: 0 10px 15px 10px;
+    } */
     .content{
-        width: 45%;
+        width: 90%;
         margin: 0 auto;
         margin-bottom: 30px;
     }
@@ -220,5 +230,4 @@
     .sns span{
         font-size: 10px;
     }
-
 }
