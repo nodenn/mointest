@@ -222,7 +222,6 @@
     .sns span{
         font-size: 14px;
         margin-bottom: 3px;
-        /* display: none; */
     }
     .sns .icon{
         margin-right: 13px;
@@ -231,7 +230,7 @@
 }
 
 
-@media screen and (max-width: 839px) {
+@media screen and (min-width: 600px) and (max-width: 839px) {
 /* footer */
 .footer{
     font-size: 13px;
@@ -256,15 +255,13 @@
 
 .sns{
     position: relative;
-    /* float: right; */
-    float: left;
-    /* margin-top: 10px; */
+    float: right;
+    display: block;
 }
 
 .sns span{
     font-size: 13px;
     margin-bottom: 3px;
-    /* display: none; */
 }
 .sns .icon{
     margin-right: 13px;
@@ -307,7 +304,6 @@
 .sns{
     position: relative;
     display: block;
-    /* float: right; */
     float: left;
     margin-top: 10px;
 }
@@ -315,7 +311,6 @@
 .sns span{
     font-size: 13px;
     margin-bottom: 3px;
-    /* display: none; */
 }
 .sns .icon{
     margin-right: 13px;
