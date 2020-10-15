@@ -234,9 +234,8 @@
 
     .sns{
         position: relative;
-        transform: translateY(-350%);
-        /* transform: translateY(-215%); */
-        /* height: 60px; */
+        /* transform: translateY(-350%); */
+        transform: translateY(-162px);
     }
 
     .sns span{
@@ -250,7 +249,22 @@
 @media screen and (min-width: 532px) and (max-width: 599px){
     .sns{
         position: relative;
-        transform: translateY(-310%);
+        transform: translateY(-125px);
+    }
+    .sns span{
+        font-size: 12px;
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 320px){
+    .footer_wrap{
+        padding: 30px 40px 0 40px;
+    }
+    .sns{
+        position: relative;
+        transform: translateY(-162px);
     }
     .sns span{
         font-size: 12px;
