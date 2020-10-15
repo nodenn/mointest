@@ -205,7 +205,7 @@
 
     /* footer */
     .footer{
-        font-size: 12px;
+        font-size: 13px;
     }
     .footer_wrap{
         width: 100%;
@@ -226,7 +226,7 @@
     }
 
     .sns span{
-        font-size: 14px;
+        font-size: 13px;
     }
 
 }
