@@ -40,6 +40,7 @@ body{
     height: 80px;
     background-color: #fff;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 999;
 }
 
 .innerHeader{
@@ -130,7 +131,7 @@ body{
     
     margin-top: 80px;
     position: relative;
-    z-index: -1;
+    /* z-index: -1; */
     height: auto;
     width: 100%;
     background-size: 100%;
@@ -161,32 +162,55 @@ body{
 
 .content{
     position: relative;
-    display: flex;
+    /* display: flex; */
     float: left;
     width: 370px;
     margin: 0 15px 40px 15px;
     background: #ffffff;
-    display: block;
     border-radius: 2px;
     box-shadow: 0 4px 6px 0 rgba(0,0,0,.15);
 }
 
 .cont_inner{
-    padding: 0 25px 20px 25px;
+    position: relative;
+    padding: 10px 10px 20px 10px;
+}
+
+.video{
+    position: relative;
+    padding-top: 25px;
+    padding-bottom:56.25%;
+    height: 0;
+    width: 100%;
+    overflow: hidden;
 }
 
 .video a img{
-    width: 320px;
-    margin: 15px 0 10px 0;
+    width: 100%;
+    margin: 10px 0 8px 0;
     display: block;
+}
+.video iframe,
+.video object,
+.video embed{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .v_title{
     font-weight: 500;
     font-size: 16px;
+    margin-top: 8px;
 }
 
 .v_name{
+    margin-top: 3px;
     color: #666666;
     font-size: 14px;
 }
