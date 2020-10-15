@@ -269,7 +269,7 @@
 .footer_wrap .info{
     position: relative;
     display: block;
-    margin-left: 20px;
+    width: 50%;
 }
 
 .info span{
@@ -278,8 +278,9 @@
 
 .sns{
     position: relative;
-    float: right;
-    margin-top: 10px;
+    /* float: right; */
+    float: left;
+    /* margin-top: 10px; */
 }
 
 .sns span{
