@@ -252,8 +252,41 @@
 }
 
 
-@media screen and (max-width: 812px) {
-    
+@media screen and (max-width: 839px) {
+/* footer */
+.footer{
+    font-size: 12px;
+}
+.footer_wrap{
+    width: 100%;
+    padding: 30px 40px;
+}
+
+.footer_logo a img{
+    height: 40px;
+}
+
+.footer_wrap .info{
+    position: relative;
+    display: block;
+    margin-left: 20px;
+}
+
+.sns{
+    position: relative;
+    float: right;
+    margin-top: 10px;
+}
+
+.sns span{
+    font-size: 14px;
+    margin-bottom: 3px;
+    /* display: none; */
+}
+.sns .icon{
+    margin-right: 13px;
+    margin-left: 0;
+}
 }
 
 
