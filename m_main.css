@@ -207,11 +207,11 @@
 
     /* footer */
     .footer{
-        font-size: 10px;
+        font-size: 12px;
     }
     .footer_wrap{
         width: 100%;
-        padding: 30px 50px;
+        padding: 30px 50px 0 50px;
     }
 
     .footer_logo a img{
@@ -219,15 +219,15 @@
     }
 
     .footer_wrap .info{
-        margin-left: 40px;
+        margin: 10px 0 0 0;
     }
 
     .sns{
         position: relative;
-        top: -6px;
+        transform: translateY(-230%);
     }
 
     .sns span{
-        font-size: 10px;
+        font-size: 12px;
     }
 }
